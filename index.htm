@@ -9,41 +9,109 @@
 <!-- Styles -->
 <!-- boostrap 4.1 -->
 <link href="assets/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<!-- font-awesome -->
+<link href="assets/vendor/font-awesome/css/fontawesome-all.css" rel="stylesheet" />
 <!-- custom projet style -->
+<link href="assets/css/scrolling-nav.css" rel="stylesheet" />
 <link href="assets/css/style.css" rel="stylesheet" />
 <link href="assets/scss/style.scss"/>
 <title>Pensiunea Koruna</title>
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed">
 <header >
-    <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent" color-on-scroll="400">
-        <div class="container">
-            <div class="dropdown button-dropdown">
-                <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
-                    <span class="button-bar"></span>
-                    <span class="button-bar"></span>
-                    <span class="button-bar"></span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-header">{{'We wait for you!'|_ }}</a>
-                    <a class="dropdown-item" href="https://www.booking.com/hotel/ro/pensiunea-koruna.ro.html" target="_blank">{{'Book a room'|_ }}</a>
-                    <a class="dropdown-item" href="https://www.google.ro/search?q=pensiunea+koruna&oq=pensiunea+koruna&aqs=chrome..69i57j69i60l3j0.5753j0j4&sourceid=chrome&ie=UTF-8#lrd=0x474d9db2f6c4d4e9:0x47bcff0c81960e0d,3,,," target="_blank">{{'Write a review'|_ }}</a>
-                    <a class="dropdown-item" href="/contact">{{'Contact us'|_ }}</a>
-                 </div>
+ <!-- Header Top Section -->
+        <section class="header-top" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="header-content">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><i class="fa fa-phone" aria-hidden="true"></i>+00 111 222 3333</li>
+                                <li class="list-inline-item"><i class="far fa-envelope" aria-hidden="true"></i>hello@website.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="col-sm-6 col-xs-12">
+                        <div class="header-social text-right">
+                            <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                       <a class="btn" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="" target="_blank">
+                           <i class="fab fa-twitter"></i>
+                            <p class="d-lg-none d-xl-none">Twitter</p>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a class="quote" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <p class="d-lg-none d-xl-none">Facebook</p>
+                        </a>
+                        </li>               
+
+                      </div>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="/" rel="tooltip" title="O clipa de relaxare!" data-placement="bottom" target="_self">
-                  Pensiunea Koruna <!-- <img src="/themes/pensiunea-koruna/assets/img/korunalogo.png" class="img-fluid" alt="Pensiunea Koruna"> -->
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
+        </section>
+        <!-- End Header Top Section -->
+
+        <!-- Logo Header Section -->
+        <section class="logo-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <div class="logo">
+                            <a href=""><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-8 col-xs-12">
+                        <div class="office-info">
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <div class="office-location">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <a href=""><h2>LOCATION</h2></a>
+                                        <p>Address On Map</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="office-time">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <a href=""><h2>MON - SUN</h2></a>
+                                        <p>9:00am - 6:00pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="office-call">
+                                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                                        <a href=""><h2>CALL US</h2></a>
+                                        <p>111-24-3159</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="/themes/pensiunea-koruna/assets/img/blurred-image-1.jpg">
-                <ul class="navbar-nav">
+        </section>
+        <!-- End Logo Header Section -->
+
+        <!-- Nav Section -->
+        <section class="navigation" id="sticker">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-xs-12">
+                        <nav class="navbar navbar-expand-lg navbar-fixed bg-light" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header page-scroll">
+                                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse bg-light" id="navbarsExample07">
+                                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="/"><p>{{'Home'|_ }}</p></a>
                     </li>
@@ -71,7 +139,7 @@
                                                     <a class="dropdown-item" href="#">{{'Adventure'|_ }}</a>
                                                     <a class="dropdown-item" href="#">{{'Natural attractions'|_ }}</a>
                                                     <a class="dropdown-item" href="#">{{'Monasteries'|_ }}</a>
-                                                    <a class="dropdown-item" href="#">{{'Monuments'|_ }}</a>
+                                                    <a class="dropdown-item" href="#">{{'Monuments'|_ }}</a>                                                   
                                                 </div>
                     </li>
                      <li class="nav-item">
@@ -80,7 +148,7 @@
                     <li>
                         <span>{% component 'localePicker' %}</span>
                     </li>
-
+                    
                     <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="" target="_blank">
                            <i class="fab fa-twitter"></i>
@@ -94,10 +162,19 @@
                         </a>
                     </li>
                 </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <div class="col-sm-3 col-xs-3">
+                        <div class="quote text-right">
+                            <a href="">GET A QUOTE</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- End Navbar -->
+        </section>
+        <!-- End Nav Section --> 
+       
 </header>
 <!--Start slider -->
 <div id="myCarousel" class="carousel slide container" data-ride="carousel">
@@ -396,6 +473,7 @@
 <script src="assets/vendor/bootstrap/assets/js/vendor/popper.min.js"></script>
 <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/vendor/bootstrap/assets/js/vendor/holder.min.js"></script>
+<script src="assets/js/scrolling-nav.js"></script>
 <script>
   Holder.addTheme('thumb', {
     bg: '#55595c',
