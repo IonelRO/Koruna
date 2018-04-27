@@ -7,16 +7,12 @@
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+
   font-size: 2.25rem;
 }
 
 .blog-header-logo:hover {
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .display-4 {
@@ -251,13 +247,7 @@ textarea {
    Basic Code
    ========================================================================== */
 
-h2, h3{
-    font-family: 'Montserrat', sans-serif;
-}
 
-p{
-    font-family: Open sans;
-}
 
 /* ==========================================================================
 Header Top
@@ -282,7 +272,7 @@ Header Top
     font-size: 14px;
     padding-top: 10px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+   
 }
 
 .header-content ul li i{
@@ -527,7 +517,7 @@ div#sticker{
     height: 37px;
     font-size: 14px;
     display: inline-block;
-    font-family: "Open sans";
+   
     border: none;
     outline: none;
     color: #ffffff;
@@ -570,7 +560,7 @@ div#sticker{
 
 ::-webkit-input-placeholder {
    color: #ffffff;
-   font-family: Open sans;
+   
 }
 
 .quote{
@@ -581,9 +571,9 @@ div#sticker{
     font-size: 18px;
     color: #000000;
     background-color: #ffb300;
-    border: 2px solid #ffb300;
+    border: 2px solid #004cff;
     padding: 18px 15px 15px 15px;
-    font-family: 'Montserrat', sans-serif;
+   
     transition: 0.7s ease;
 }
 
@@ -738,7 +728,7 @@ Slider
     padding: 10px 30px;
     font-weight: 500;
     border: 2px solid #ffb300;
-    font-family: Open sans;
+   
     transition: 0.8s ease;
 }
 
@@ -955,7 +945,7 @@ Project
     background-color: #ffb300;
     padding: 8px 15px;
     border: 2px solid #ffb300;
-    font-family: Open sans;
+   
     cursor: pointer;
     font-weight: 500;
     transition: 0.8s;
@@ -1211,7 +1201,7 @@ Portfolio
     background-color: #ffb300;
     padding: 8px 15px;
     border: 2px solid #ffb300;
-    font-family: Open sans;
+   
     cursor: pointer;
     font-weight: 500;
     transition: 0.8s;
@@ -1294,7 +1284,7 @@ Portfolio
     background-color: #FFB300;
     padding: 7px 18px;
     border: 1px solid #FFB300;
-    font-family: Open sans;
+    
     font-weight: 500;
     transition: 0.7s;
     z-index: 1000;
@@ -1597,7 +1587,7 @@ form{
     background-color: #ffb300;
     padding: 8px 30px;
     border: 2px solid #ffb300;
-    font-family: Open sans;
+    
     font-weight: 500;
     transition: 0.8s;
 }
@@ -1609,7 +1599,7 @@ form{
 
 .contact-form > ::-webkit-input-placeholder, .message-box > ::-webkit-input-placeholder{
    color: #ffb300;
-   font-family: Open sans;
+   
    font-weight: 500;
 }
 
@@ -1657,7 +1647,7 @@ Footer-Top
     font-size: 24px;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 25px;
-    font-family: pacifico;
+    
 }
 
 
@@ -1717,7 +1707,7 @@ Footer-Top
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
     line-height: 40px;
-    font-family: Open sans;
+    
 }
 
 .links ul li a:hover{
@@ -1749,7 +1739,7 @@ Footer-Top
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
     line-height: 32px;
-    font-family: Open sans;
+    
 }
 
 .working-hour ul li p{
@@ -1777,7 +1767,7 @@ Footer-Top
     font-size: 13.5px;
     color: rgba(255, 255, 255, 0.8);
     line-height: 42px;
-    font-family: Open sans;
+    
 }
 
 .contact-us ul li i{
@@ -1799,7 +1789,7 @@ Footer
     color: #ffffff;
     margin: 0;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    
 }
 
 .footer a{
@@ -4971,7 +4961,7 @@ button.close {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -5096,7 +5086,7 @@ button.close {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -12082,7 +12072,7 @@ h6,
 .h2,
 .h3,
 .h4 {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+ 
     font-weight: 300;
     line-height: 1.5em;
 }
@@ -12145,14 +12135,12 @@ h5,
 
 h6,
 .h6 {
-    font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: 500;
 }
 
 p {
-    font-size: 14px;
-    margin: 0 0 10px;
+   margin: 0 0 10px;
 }
 
 b {
@@ -12173,7 +12161,7 @@ small,
 .footer-big h4,
 .media .media-heading {
     font-weight: 700;
-    font-family: "Roboto Slab", "Times New Roman", serif;
+   
 }
 
 .title,
@@ -12774,7 +12762,7 @@ h2.title {
 .dropdown-menu a:focus,
 .dropdown-menu a:active {
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
-    background-color: #ffb300;
+    background-color: #004cff;
     color: #FFFFFF;
 }
 
