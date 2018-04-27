@@ -210,7 +210,7 @@ Header Top
 }
 
 .header-content ul{
-    margin: 0;   
+    margin: 0;
 }
 
 .header-content ul li{
@@ -235,7 +235,7 @@ Header Top
 }
 
 .header-social ul li{
-    padding: 10px 18px;
+
 }
 
 .header-social ul li:last-child{
@@ -243,7 +243,7 @@ Header Top
 }
 
 .header-social ul li a{
-    
+
 }
 
 .header-social ul li a i{
@@ -262,7 +262,7 @@ Logo Header
 
 .logo-header{
     background-color: #343434;
-    padding: 45px 0 80px 0;
+    padding: 15px 0 40px 0;
     position: relative;
 }
 
@@ -271,7 +271,7 @@ Logo Header
 }
 
 .logo a{
-    
+
 }
 
 .logo img{
@@ -410,7 +410,7 @@ Nav Bar
 }
 
 div#sticker{
-    
+
 }
 .stick {
     position: fixed;
@@ -548,7 +548,7 @@ Responsive
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) 
+@media (min-width: 992px) and (max-width: 1199px)
 {
     .navbar-default .navbar-nav > li > a {
         font-size: 14px;
@@ -647,7 +647,7 @@ Responsive
 
     .blog-main {
         padding: 0 0 6px 0px;
-        height: 76px;
+
     }
 
     .blog-main p {
@@ -728,8 +728,6 @@ Responsive
 
     .navbar-nav > li > a {
         padding-right: 0;
-        padding-top: 24px;
-        padding-bottom: 25px;
     }
 
     .navbar-collapse {
@@ -855,9 +853,7 @@ Responsive
         width: 95%;
     }
 
-    .blog-main {
-        height: 106px;
-    }
+  
 
     .blog-main a h2 {
         font-size: 18px;
@@ -895,7 +891,7 @@ Responsive
 }
 
 @media only screen and (max-width: 767px) {
- 
+
     .header-content ul {
         margin: 0;
         text-align: right;
@@ -953,7 +949,7 @@ Responsive
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFB300;
     }
-    
+
     .navbar-toggle .icon-bar {
         border-radius: 0;
     }
@@ -1355,7 +1351,7 @@ Responsive
 }
 
 @media only screen and (min-width: 35em) {
-    
+
 }
 
 @media print,
@@ -1371,7 +1367,7 @@ Responsive
     *:first-letter,
     *:first-line {
         background: transparent !important;
-        color: #000 !important; 
+        color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
