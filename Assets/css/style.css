@@ -647,7 +647,7 @@ Responsive
 
     .blog-main {
         padding: 0 0 6px 0px;
-        height: 76px;
+
     }
 
     .blog-main p {
@@ -853,9 +853,7 @@ Responsive
         width: 95%;
     }
 
-    .blog-main {
-        height: 106px;
-    }
+  
 
     .blog-main a h2 {
         font-size: 18px;
